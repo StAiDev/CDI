@@ -11,7 +11,7 @@ function createWindow() {
         }
     })
 
-    mainWindow.loadFile('windows/index.html')
+    mainWindow.loadFile('src/windows/mainWindow.html')
 }
 
 app.on('ready', createWindow)
