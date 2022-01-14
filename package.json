@@ -1,0 +1,27 @@
+{
+  "name": "cdi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StAiDev/CDI.git"
+  },
+  "keywords": [
+    "cdi"
+  ],
+  "author": "StAiDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StAiDev/CDI/issues"
+  },
+  "homepage": "https://github.com/StAiDev/CDI#readme",
+  "dependencies": {
+    "electron": "^16.0.7"
+  }
+}
