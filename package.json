@@ -6,7 +6,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,13 @@
     "url": "https://github.com/StAiDev/CDI/issues"
   },
   "homepage": "https://github.com/StAiDev/CDI#readme",
-  "dependencies": {
-    "electron": "^16.0.7",
-    "electron-builder": "^22.14.5"
+  "build": {
+    "productName": "CDI",
+    "appId": "com.staidev.cdi",
+    "nsis": {
+      "oneClick": false,
+      "displayLanguageSelector": true,
+      "installerLanguages": ["en_US", "ko_KR"]
+    }
   }
 }
