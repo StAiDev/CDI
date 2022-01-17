@@ -11,6 +11,7 @@ function createWindow() {
         }
     })
 
+    mainWindow.setMenuBarVisibility(false)
     mainWindow.loadFile('src/windows/mainWindow.html')
 }
 
