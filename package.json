@@ -29,7 +29,13 @@
     "nsis": {
       "oneClick": false,
       "displayLanguageSelector": true,
-      "installerLanguages": ["en_US", "ko_KR"]
+      "installerLanguages": [
+        "en_US",
+        "ko_KR"
+      ]
     }
+  },
+  "dependencies": {
+    "electron": "^16.0.7"
   }
 }
