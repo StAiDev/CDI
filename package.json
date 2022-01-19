@@ -33,10 +33,5 @@
         "ko_KR"
       ]
     }
-  },
-  "dependencies": {
-    "electron": "^16.0.7",
-    "electron-builder": "^22.14.5",
-    "selenium-webdriver": "^4.1.1"
   }
 }
